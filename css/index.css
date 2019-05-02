@@ -1,0 +1,36 @@
+.orta_sayfa_resmi{
+
+    width:78%;
+    height:300px;
+    background-image: url('../image/pictures_1_2.jpg');
+    background-size: 100% 100%;
+    margin-left:11%; 
+}
+
+/*orta banner css başlangıç*/
+
+
+    #orta_banner
+    {
+        width: 75%;
+        height: 252px;
+        margin-left:8%;
+        margin-top: 3%;
+    }
+    #orta_banner span{
+        display: inline-block;
+         width: 23%;
+        height: 100%;
+        margin-left: 10%;
+    }
+        #orta_banner span:hover
+    {
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    }
+/*orta banner css bitiş*/
+
+.admin_secim{
+    width: 78%;
+    margin-left: 12%;
+    margin-bottom: 4%;
+}

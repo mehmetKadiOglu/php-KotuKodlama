@@ -1,0 +1,521 @@
+body
+{
+   font-family: Sans-serif;
+    margin: 0px;
+    padding: 0px;
+    min-width:1473px;
+    background-color: rgb(232, 235, 235);
+}
+
+/* Header Css Başlangıc*/
+    .header{
+        width: 100%;
+        height: 139.2px; 
+        background-color: white;
+    
+    }
+  
+    .üst_header{
+        width: 78%;
+        margin-left: 11%;
+        height: 100%;
+        background-color: rgb(252, 252, 252);
+    }
+
+    .üst_header a{
+
+        font-size: 0.9em;
+        text-decoration: none;
+        color:#55595f;
+        margin-right: 2%;   
+    }
+
+    .üst_header a:hover{
+
+        color:#8fb7d1;
+    }
+
+    .üst_link{
+
+        padding-top: 1%; 
+        width: 40%;
+        float:left;
+    }
+
+    .iconlar{
+
+        float:right; 
+        background-repeat: no-repeat;
+        background-position:  left;
+        padding-left: 2%;
+        width: 28.5%;
+        height: 100%;
+        background-image: url('../image/icon_phone_gray.png');
+    }
+
+    .iconlar span{
+
+        display:block;
+        padding-top: 4%;
+        width: 70%;
+        float: left;
+        font-size: 0.9em;
+        color: #55595f;
+    }
+
+    .banner{
+
+        position: relative;
+        float: left;
+        top: 23%;
+        width: 30%
+    }
+
+    .banner img{
+
+        margin-right: 4%;
+    }
+
+    .alt_header{
+        width: 78%;
+        margin-left: 11%;
+        height: 66%;  
+    }
+
+    .sayfa_resimi /* alt headerdeki sayfa resmi */
+    {
+        float: left;
+        margin-top: 1%;
+        cursor:pointer;
+        width: 28%;
+        height: 89%;
+        background-image: url('../image/1.png');
+        background-size: 100% 100%;
+    }
+    .form{ /*arama kutusuu*/
+
+        float: left;
+        width: 64%;
+        height: 45%;
+        margin-top: 2.5%;
+        margin-left: 8%;
+   
+    }
+
+    .text{ /* inputların genel görünümü. Kullanıcı girişede*/
+
+        float: left;
+        width: 52%;
+        height: 91%;
+        border: 1px solid #0075ac;
+        border-radius: 3px;
+        background-color: #f2f2f2;
+    }
+    .arama_kutusu{
+        float: left;
+        width: 8%;
+        height: 100%; 
+    }
+
+    .arama_kutusu input{
+
+        width: 90%;
+        height: 100%;
+        border: 1px solid #0075ac;
+        border-radius: 3px;
+        background: #0075ac; 
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .hesapp{
+   
+        float: left;
+        background-size: 40% 40%;
+        background-position: left;
+        background-repeat: no-repeat;
+        border: 1px solid #0075ac;
+        border-radius: 3px;
+        height: 93%;
+        width: 18%;
+        margin-left: 3%;
+        background-image: url('../image/user_icon.png');
+
+    }
+
+    .hesapp ul{
+
+        height: 60%;
+        margin-left: 16%;
+        list-style:none;
+    }
+
+    .hesapp li{
+
+        height: 100%;
+
+    }
+
+    .uye_giris{
+
+        display: none;
+        position: relative;
+        left:-400%;
+        background-color: rgb(230, 240, 240);
+        width: 500%;
+        height: 1700%;
+        z-index: 99999;
+        padding-top: 60%;
+
+    }
+    .uye_giris form{
+        width: 100%;
+        height: 60%;
+    }
+
+    .b{
+
+        display: block;
+        margin-left: 10%;
+    }
+
+    .a{
+
+        font-size: 0.8em;
+        display: block; 
+        margin-left: 10%;
+        margin-top: 2%;
+
+    }
+
+    .mail{
+
+        margin-top: 10%;
+        margin-left: 10%;
+        height: 20%;
+        margin-bottom: 3%;
+        
+
+    }
+
+
+    .kayit{
+
+        display: inline-block;
+        font-size: 1.2em;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1%;
+        text-align: center;
+        text-decoration: none;
+        color: #49af11;
+    }   
+
+    .hesapp ul:hover .uye_giris{
+        display: block;
+    }
+
+    .sepet{
+        position: relative;
+        background-size: 50% 50%;
+        background-position:left;
+        background-repeat: no-repeat;
+        float: right;
+        height: 97%;
+        width: 16%;
+        background-image:url('../image/8e5df07f1ab8a595c83a8ca017265932.png') 
+    }
+    .sepet a{
+
+        display: inline-block;
+        margin-top: 9%;
+        margin-left: 45%;
+
+    }
+    .sepet span{
+        position: absolute;
+        background-color: #49af11;
+        border-radius: 90% 90%;
+        left: -10px;
+        top:-5px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        color: white;
+        padding-top: 2px;
+    }
+
+    .sepet:hover{
+
+            border: 1px solid #49af11;
+            border-radius: 3px;
+    }
+
+
+
+/*Header css bitiş-*/
+
+/* menü css Başlangıc */
+
+   #menü
+   {
+       position: -webkit-sticky;
+       position: sticky;
+       top:0px;
+       background-color:#27354b;
+       width: 100%;
+       font-size: 0.9em;
+       height: 48px;  
+       z-index: 9999;
+   }
+
+   #menü ul{
+    height: 100%;
+    list-style: none;
+    margin: 0px;
+    padding:0px;
+    }
+
+   .Katagori{
+
+       background-color:#0075ac;
+       margin-left: 11%;
+       height: 100%;
+       width: 11%;
+       display: block;
+       float: left;
+       background-image:url('../image/15.png');
+       background-repeat: no-repeat;
+       background-position: left;
+       background-size: 20% 60%;
+    }
+
+    .Katagori a{
+
+        display: inline-block;
+        text-decoration: none;    
+        text-align: center;
+        margin-left:6%;
+        margin-top: 10%;
+        height: 100%;
+        width: 100%;
+        color: white;
+
+   }
+
+   .Genel_acilir{
+        position: relative;
+        left: -100%;
+        width:809%;
+        background-color:white;
+        display: none;
+        padding-left: 100%;
+        margin-top: 8.5%;
+
+    }
+    
+    .ic_acilir
+    {
+        display: inline-block;
+        width: 17%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+        border-right: 1px solid #55595f;
+        
+    }
+
+    .ic_acilir ul > li{
+        position: relative;
+        width: 100%;
+        height: 2.5em;
+        padding-top: 0.3em;
+    }
+
+    .ic_acilir li>ul
+    {
+        position:absolute;
+        left:149px;
+        top:-20px;
+    }
+    .ic_acilir ul > li:hover{
+        list-style-image: url('../image/check_sign_icon_light_green.png');
+        color:#49af11;
+        margin-left: 10%;
+        width: 90%;
+    }
+    
+    .ic_acilir  #protein_li:hover .protein_acilir{
+
+        display: block;
+    }
+
+    .ic_acilir  #amino_li:hover .amino_acilir{
+
+        display: block;
+    }
+
+    .ic_acilir  #karnitin_li:hover .karnitin_acilir{
+
+        display: block;
+    }
+
+    .ic_acilir  #kreatin_li:hover .kreatin_acilir{
+
+        display: block;
+    }
+
+    .ic_acilir  #performans_li:hover .performans_acilir{
+
+        display: block;
+    }
+       
+    .ic_acilir div li{
+        margin-bottom: 1.5%;
+        margin-left: 9%;
+        font-size: 1em;
+        color:#55595f;
+       
+    }
+
+    .ic_acilir div span{
+
+        background-image: url('../image/banner_19.png');
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 40%;
+        height: 75%;
+        position: absolute;
+        right: 5%;
+        top:15%;
+    }
+
+    .protein_acilir
+    {
+        display: none;
+        position: relative;
+        width: 1200%;
+        left: 84%;
+        top:65%;
+        height: 600%;
+
+    }
+
+    .amino_acilir{
+        display: none;
+        position: relative;
+        width: 1200%;
+        left: 84%;
+        top:-32%;
+        height: 600%;
+        
+    }
+
+    .karnitin_acilir{
+
+        display: none;
+        position: relative;
+        width: 1200%;
+        left: 84%;
+        top:-230%;
+        height: 600%;
+        
+    }
+
+    .kreatin_acilir{
+
+        display: none;
+        position: relative;
+        width: 1050%;
+        left: 84%;
+        top:-330%;
+        height: 600%;
+    }
+ 
+    .performans_acilir{
+
+        display: none;
+        position: relative;
+        width: 920%;
+        left: 75%;
+        top:-430%;
+        height: 600%;
+    }
+
+    .Katagori:hover{
+
+        background-color: #49af11;
+     
+    }
+
+   .Katagori ul:hover .Genel_acilir{
+
+        display: block;
+
+        }
+
+   .Ürün_Çeşitleri{
+
+        height: 100%;
+        width: 71.8%;
+        float: left;
+
+    }
+   
+   .Ürün_Çeşitleri a{
+
+       text-decoration: none;
+       margin-top:1em;
+       display: block;
+       color:white;
+   }
+  
+   .liste
+   {
+       height:100%;
+       width: 82%;
+       float:left;
+   }
+   .liste li
+   {
+       height: 100%;
+       padding-left: 1.5%;
+       padding-right: 1.5%;
+       float: left;
+       
+   }
+  
+   .liste ul li:hover {
+       background-color: #49af11;
+   }
+   
+   .Marka{
+       background-color:rgba(0,0,0,0.5);
+       height:100%;
+       width:11.4%;
+       float: left;
+   }
+   .Marka li
+   {
+       
+       float: left;
+       height: 100%;
+       padding-left: 25%;
+       
+   }
+   .acılır2{
+       background-color: green;
+       width:100%;
+       height:500%;
+       position: relative;
+       left: -900%;
+       display: none;
+   }
+   .Marka ul:hover .acılır2{
+       display: block;
+   }
+   .Marka ul:hover{
+       background-color: #49af11;
+   }
+
+/* menü css bitiş- */

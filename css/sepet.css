@@ -1,0 +1,52 @@
+ .ana{
+    background-color: pink;
+    margin-left: 11%;
+    width: 78%;
+    margin-top:4%;
+ }
+ .ana span{
+    display: block;
+    float: left;
+    border: 1px solid red;
+    text-align: center;
+ }
+
+ .sepet_yazilar{
+    width: 100%;
+    height: 20px;
+    background-color: plum;
+ }
+
+ .genel_yazi{
+
+    width: 10%;
+    height: 100%;
+   
+    background-size: 100% 100%;
+ }
+
+
+ .urunler_yazi{
+
+    width: 40%;
+    height: 100%;
+    
+ }
+
+ .adet_yazi{
+
+    width: 14%;
+    height: 100%;
+ }
+
+ .sil{
+
+    width: 5%;
+    height: 100%;
+ }
+
+ .sepet_urunler{
+    width: 100%;
+    height: 100px;
+    background-color: orangered;
+ }

@@ -1,0 +1,141 @@
+
+/* marka ve çeşitler */
+    .Çeşitler
+    {
+        width: 68%;
+        padding-left: 10%; 
+        margin-left: 11%;
+        margin-top: 2%;
+        padding-bottom: 2%;
+        background-color:rgb(255, 255, 255); 
+        
+    }
+    .Çeşitler a
+    {
+        text-decoration: none;
+        color:#55595f;
+
+    }
+ 
+    .Çeşitler li{
+
+        float: left;
+        margin-top: 1%;
+        width: 30%;
+        font-size: 0.9em;
+        color:#55595f;
+        list-style-image: url('../image/liste.png')
+        
+    }
+
+    .Markalar{
+        margin-left: 11%;   
+        width: 68%;
+        padding-left: 10%;       
+        margin-top: 1%;
+        background-color:white; 
+        margin-bottom: 1%;
+    }
+    .Markalar li{
+
+        float: left;
+        margin-top: 1%;
+        font-size: 0.9em;
+        color:#55595f;
+        width: 25%;
+        list-style-image: url('../image/liste.png')
+
+    }
+
+
+/*marka ve çeşitler bitiş*/
+/*Satış Div Css Başlangiç*/
+
+    .ana_div{
+        margin-left: 11%;
+        width: 78%;
+    }   
+    .Urun_Satis_kutular
+    {
+        position: relative;
+        background-color: white; 
+        width: 18%;
+        height: 350px;
+        margin-right: 2%;
+        float: left;
+        margin-bottom: 5%;
+    
+    }
+    
+    .Urun_Satis_kutular a{
+
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 4%;
+    color:#55595f;
+        
+    }
+
+    .Sepete_ekle{
+    
+    display: none;
+    background-color:#49af11;
+    width:75%;
+    height:76%;
+    top: -55%;
+    left:12%;
+    padding-top: 3%;
+    position:relative;
+    text-align: center;
+    color:white;
+    }
+
+    .Urun_Satis_kutular:hover .Sepete_ekle{
+    display: block;
+    } 
+
+    .sayfa_numara{
+
+        width: 500px;
+        margin-left: 400px;
+        height: auto;
+        clear: left;
+        
+    }
+    
+    .sayfa_numara a{
+
+        text-decoration: none;
+
+    }
+
+    .kutuluma{ /* sayfa numara kutuları*/
+        display: inline-block;
+        width: 30px;
+        padding-left: 17px;
+        padding-top: 2px;
+        height: 20px;
+        background-color: pink;
+        margin-left: 9px;
+        color: rgb(51, 51, 51);
+        border-radius: 15px 15px;
+    }
+    .admin{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .deneme{
+        position: absolute;
+        width: 70%;
+        height: 65%;
+        opacity:0.9;
+        background-color:#ffffff;
+        padding-left: 30%;
+        padding-top: 40%;
+        cursor: pointer;
+    }
+ 
+
+/*Satış Div Css bitiş*/
+   
